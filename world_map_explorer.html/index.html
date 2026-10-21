@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Map Explorer</title>
+</head>
+<body>
+
+    <h1>World Map Explorer</h1>
+    <p>Click on a country to explore!</p>
+
+    <img src="world-map.jpg"
+         alt="World map"
+         usemap="#worldmap">
+
+    <map name="worldmap">
+
+
+        <area shape="circle"
+              coords="507,517,338"
+              href="https://en.wikipedia.org/wiki/Australia"
+              alt="Australia"
+              target="_blank">
+
+    
+        <area shape="rect"
+              coords="20,19,331,333"
+              href="https://en.wikipedia.org/wiki/India"
+              alt="India"
+              target="_blank">
+
+    
+        <area shape="poly"
+              coords="201,258,128,315,157,406,275,314,248,406"
+              href="https://en.wikipedia.org/wiki/China"
+              alt="China"
+              target="_blank">
+
+        
+        <area shape="default"
+              href="https://en.wikipedia.org/wiki/World"
+              alt="World information"
+              target="_blank">
+
+    </map>
+
+    <p>Explore Australia, India, China, and the world!</p>
+
+</body>
+</html>
